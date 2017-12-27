@@ -8,12 +8,15 @@ import { PageAction } from './left_navbar/page_action';
 export class Navbar extends Component {
   render() {
     return (
-      <div class="page-header-inner">
+      <div className="page-header navbar navbar-fixed-top">
+        <div class="page-header-inner">
            <PageLogo/>
            <PageLink/>
            <PageAction/>
            <RightNavbar/>
+        </div>
       </div>
+      
     )
   }
 }
