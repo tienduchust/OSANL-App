@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { LeftNavbar } from './left_navbar/left_navbar';
+
 import { RightNavbar } from './right_navbar/right_navbar';
 import { PageLogo } from './left_navbar/page_logo';
 import { PageLink } from './left_navbar/page_link';
