@@ -7,8 +7,8 @@ export class MainContent extends Component {
       <div className="page-container">
 
         <Sidebar/>
-        <a href="javascript:;" class="page-quick-sidebar-toggler">
-                <i class="icon-login"></i>
+        <a href="" className="page-quick-sidebar-toggler">
+          <i className="icon-login"></i>
         </a>
       </div>
     )

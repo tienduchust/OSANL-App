@@ -9,7 +9,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div className="page-header navbar navbar-fixed-top">
-        <div class="page-header-inner">
+        <div className="page-header-inner">
            <PageLogo/>
            <PageLink/>
            <PageAction/>
